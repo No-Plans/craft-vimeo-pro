@@ -1,6 +1,6 @@
 # Craft Vimeo Pro plugin for Craft CMS 3.x
 
-Save video data as field from Vimeo Pro API.
+The field offers an easy way to fetch video data (sources, poster-frames, sizes and more) from a specified Vimeo Pro account.
 
 Adapted from [ACF Vimeo Pro Data](https://github.com/ttillberg/acf-vimeo-pro-data)
 
