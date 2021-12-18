@@ -38,7 +38,7 @@ class CraftVimeoProVariable
 
     public function videoObj($data)
     {
-        return $this->json_decode($data);
+        return json_decode($data);
     }
 
 }
