@@ -1,12 +1,14 @@
 # Craft Vimeo Pro plugin for Craft CMS 3.x
 
-Save video data as field from Vimeo Pro API
+Save video data as field from Vimeo Pro API.
 
 Adapted from [ACF Vimeo Pro Data](https://github.com/ttillberg/acf-vimeo-pro-data)
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+- Craft CMS 3.0.0 or later.
+- Vimeo Pro plan or higher
+
 
 ## Installation
 
@@ -24,11 +26,16 @@ To install the plugin, follow these instructions.
 
 ## Craft Vimeo Pro Overview
 
--Insert text here-
+Adds a searchable field to import Vimeo videos to Craft.
+
+<img width="865" alt="Screen Shot 2021-12-17 at 4 49 40 PM" src="https://user-images.githubusercontent.com/742229/146623194-8ba9ecd3-0f3a-4c47-a60b-e07b36cfd95f.png">
+
+<img width="861" alt="Screen Shot 2021-12-17 at 4 50 04 PM" src="https://user-images.githubusercontent.com/742229/146623233-6db29715-ed9b-4ccc-b094-a1fba562e748.png">
+
 
 ## Configuring Craft Vimeo Pro
 
-1. Add Vimeo Auth Token in Settings > Craft Vimeo Pro. (see https://developer.vimeo.com/api/start)
+1. Add *Vimeo Auth Token* in `Settings > Craft Vimeo Pro`. (see https://developer.vimeo.com/api/start)
 2. Create a new field with type `Vimeo Video`
 3. Add field to Section entry type
 
@@ -38,4 +45,3 @@ To install the plugin, follow these instructions.
 - In templates, use `{{ craft.craftVimeoPro.videoObj(YOUR_VIMEO_FIELDNAME) }}` to return JSON parsed as an object. 
 
 Brought to you by [No Plans](https://no-plans.com/)
-# craft-vimeo-pro-data
