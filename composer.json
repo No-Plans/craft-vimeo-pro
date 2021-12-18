@@ -2,7 +2,7 @@
     "name": "noplans/craft-vimeo-pro",
     "description": "Save video data as field from Vimeo Pro API",
     "type": "craft-plugin",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "keywords": [
         "craft",
         "cms",
