@@ -1,0 +1,43 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Craft Vimeo Pro plugin for Craft CMS 3.x
+ *
+ * CraftVimeoProField Field Input
+ *
+ * @author    No Plans
+ * @copyright Copyright (c) 2020 No Plans
+ * @link      https://no-plans.com/
+ * @package   CraftVimeoPro
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+<div class="craft-vimeo-pro__container {% if value != '' %}has-data{% endif %}">
+
+  {{ forms.textField({
+          class: 'craft-vimeo-pro__prompt',
+          placeholder: 'Search videos',
+          id: name })
+  }}
+
+  <input class="craft-vimeo-pro__input" name="{{ name }}" type="hidden" value="{{ value }}" />
+
+  <ul class="craft-vimeo-pro__errors"></ul>
+
+  <div class="craft-vimeo-pro__results selectize-input"></div>
+
+  <div class="craft-vimeo-pro__content">
+    <div class="craft-vimeo-pro__display selectize-input"></div>
+    <div class="craft-vimeo-pro__actions">
+      <a class="craft-vimeo-pro__remove">Remove</a>
+      |
+      <a class="craft-vimeo-pro__refresh">Refresh</a>
+    </div>
+  </div>
+
+  
+
+</div>

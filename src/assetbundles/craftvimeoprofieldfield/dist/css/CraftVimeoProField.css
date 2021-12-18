@@ -1,0 +1,89 @@
+/**
+ * Craft Vimeo Pro plugin for Craft CMS
+ *
+ * CraftVimeoProField Field CSS
+ *
+ * @author    No Plans
+ * @copyright Copyright (c) 2020 No Plans
+ * @link      https://no-plans.com/
+ * @package   CraftVimeoPro
+ * @since     1.0.0
+ */
+
+.craft-vimeo-pro__container {
+  position: relative;
+}
+
+.craft-vimeo-pro__container a:hover {
+  text-decoration: none;
+}
+
+.craft-vimeo-pro__results {
+  position: absolute;
+  left: 0;
+  top: 2.5em;
+  z-index: 10;
+  max-height: 300px;
+  margin-bottom: 50px;
+  overflow-y: auto;
+  display: none;
+}
+
+.craft-vimeo-pro__results.active {
+  display: block;
+}
+
+.craft-vimeo-pro__results .dropdown {
+  width: 100%;
+}
+
+.craft-vimeo-pro__results img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.craft-vimeo-pro__results a {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.craft-vimeo-pro__results a:hover {
+  text-decoration: none;
+  background: #f6f6f6;
+}
+
+.craft-vimeo-pro__results a:last-child {
+  border-bottom: 0;
+}
+
+.craft-vimeo-pro__content {
+  display: none;
+  min-height: 200px;
+}
+
+.craft-vimeo-pro__container.has-data .craft-vimeo-pro__content {
+  display: block;
+}
+
+.craft-vimeo-pro__container.loading .craft-vimeo-pro__preview {
+  opacity: 0.3;
+}
+
+.craft-vimeo-pro__preview a {
+  display: flex;
+}
+
+.craft-vimeo-pro__preview img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+  max-height: 230px;
+  min-height: 165px;
+  object-fit: contain;
+}
+
+.craft-vimeo-pro__actions {
+  text-align: right;
+}
