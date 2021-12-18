@@ -2,7 +2,7 @@
 
 Save video data as field from Vimeo Pro API
 
-![Screenshot](resources/img/plugin-logo.png)
+Adapted from [ACF Vimeo Pro Data](https://github.com/ttillberg/acf-vimeo-pro-data)
 
 ## Requirements
 
@@ -28,17 +28,14 @@ To install the plugin, follow these instructions.
 
 ## Configuring Craft Vimeo Pro
 
--Insert text here-
+1. Add Vimeo Auth Token in Settings > Craft Vimeo Pro. (see https://developer.vimeo.com/api/start)
+2. Create a new field with type `Vimeo Video`
+3. Add field to Section entry type
 
 ## Using Craft Vimeo Pro
 
--Insert text here-
-
-## Craft Vimeo Pro Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
+- The entire JSON object returned from Vimeo is stored as a string in the field
+- In templates, use `{{ craft.craftVimeoPro.videoObj(YOUR_VIMEO_FIELDNAME) }}` to return JSON parsed as an object. 
 
 Brought to you by [No Plans](https://no-plans.com/)
 # craft-vimeo-pro-data
