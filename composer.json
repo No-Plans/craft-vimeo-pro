@@ -34,8 +34,8 @@
         "handle": "craft-vimeo-pro",
         "developer": "No Plans",
         "developerUrl": "https://no-plans.com/",
-        "documentationUrl": "???",
-        "changelogUrl": "???",
+        "documentationUrl": "https://github.com/No-Plans/craft-vimeo-pro",
+        "changelogUrl": "https://github.com/No-Plans/craft-vimeo-pro/releases",
         "components": {
             "craftVimeoProService": "noplans\\craftvimeopro\\services\\CraftVimeoProService"
         },
