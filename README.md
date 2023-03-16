@@ -1,4 +1,4 @@
-# Craft Vimeo Pro plugin for Craft CMS 3.x & 4.x
+# Craft Vimeo Pro plugin for Craft CMS 4.x
 
 The field offers an easy way to fetch video data (sources, poster-frames, sizes and more) from a specified Vimeo Pro account.
 
@@ -6,7 +6,7 @@ Adapted from [ACF Vimeo Pro Data](https://github.com/ttillberg/acf-vimeo-pro-dat
 
 ## Requirements
 
-- Craft CMS 3.0 or 4.0.
+- Craft CMS 4.0 or higher
 - Vimeo Pro plan or higher
 
 
