@@ -346,6 +346,10 @@
         function getData() {
           var val = $input.val();
 
+          if(!val) {
+            return;
+          }
+
           var unescaped = val.split(String.fromCharCode(92,92)).join(String.fromCharCode(92));
           return unescaped;
         }
