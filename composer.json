@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0"
+        "craftcms/cms": "^3.0|^4.0"
     },
     "autoload": {
         "psr-4": {
@@ -40,5 +40,10 @@
             "craftVimeoProService": "noplans\\craftvimeopro\\services\\CraftVimeoProService"
         },
         "class": "noplans\\craftvimeopro\\CraftVimeoPro"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "craftcms/rector": "dev-main"
     }
 }
