@@ -6,7 +6,7 @@ Adapted from [ACF Vimeo Pro Data](https://github.com/ttillberg/acf-vimeo-pro-dat
 
 ## Requirements
 
-- Craft CMS 3.0.0 or later.
+- Craft CMS 3.0 or 4.0.
 - Vimeo Pro plan or higher
 
 
